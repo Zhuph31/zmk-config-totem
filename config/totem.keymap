@@ -37,6 +37,16 @@
     hold-trigger-key-positions = <26 5 15 16>;
 };
 
+&hml {
+    flavor = "balanced";
+    tapping-term-ms = <280>;
+    quick-tap-ms = <175>;
+    require-prior-idle-ms = <150>;
+    bindings = <&kp>, <&kp>;
+    hold-trigger-key-positions = <26 5 15 16>;
+    hold-trigger-on-release;
+};
+
 &msc {
     x-input-code = <INPUT_REL_HWHEEL>;
     y-input-code = <INPUT_REL_WHEEL>;
