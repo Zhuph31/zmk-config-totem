@@ -41,7 +41,7 @@
     tapping-term-ms = <170>;
 };
 
-&custom_hml {
+&hml {
     flavor = "balanced";
     tapping-term-ms = <280>;
     quick-tap-ms = <175>;
