@@ -1,5 +1,7 @@
-/custom_hml {
-    compatible = "zmk,behavior-mod-morph";
-    label = "hml";
-    #binding-cells = <2>;
+/ {
+    custom_hml: custom_hml {
+        compatible = "zmk,behavior-mod-morph";
+        label = "HML";
+        #binding-cells = <2>;
+    };
 };
