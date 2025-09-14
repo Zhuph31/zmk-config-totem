@@ -1,6 +1,6 @@
 / {
     custom_hml: custom_hml {
-        compatible = "zmk,behavior-mod-morph";
+        compatible = "zmk,behavior-mod-tap";
         label = "HML";
         #binding-cells = <2>;
     };
